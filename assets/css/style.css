@@ -1,0 +1,162 @@
+nav {
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-bottom: 30px;
+}
+
+hr {
+	border: solid 1px;
+}
+
+p {
+    
+}
+
+.navbar-brand {
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #F24C4E;
+	animation-name: change;
+    animation-duration: 4s;
+}
+
+/* for some reason, the connect with me icons change size when this is active
+@keyframes change {
+    from {background-color: #F24C4E;}
+    to {background-color: yellow;} 
+*/
+
+
+.container-about-me {
+	padding-top: 15px;
+	border: solid 5px;
+	height: 500px;
+	text-align: left;
+}
+
+.about-me-body {
+    float: left;
+}
+
+.about-me-text {
+
+}
+
+.connect-icon {
+	width: 4rem;
+	height: 4rem;
+}
+
+.about-me-box-portfolio {
+	padding-top: 15px;
+	border: solid 5px;
+	width: 600px;
+	height: 670px;
+
+}
+
+.large-text-form {
+	height: 170px;
+	width: 400px;
+}
+
+.small-container {
+	float: left;
+	margin: 20px;
+	position: relative;
+}
+
+.small-container-text {
+	position: absolute;
+	bottom: 10px;
+	padding: 15px;
+	width: 250px;
+	text-align: center;
+	background-color: #C23D88;
+	color: #ffffff;
+}
+
+.wrap-image2 {
+	height: 150px;
+	width: 250px;
+}
+
+.card-foot {
+    height: 10rem;
+}
+
+.p-footer {
+    padding-bottom: 0;
+    line-height: 0.75rem;
+}
+
+.card {
+    margin-top: 3rem;
+    background-image: https://newevolutiondesigns.com/images/freebies/colorful-background-11.jpg;
+}
+
+.card-body {
+    text-align: center;
+    padding: 0.50rem
+}
+
+.btn {
+    border: none;
+}
+
+.btn-music-link {
+    background-color: #EAB126;
+}
+
+
+@media only screen and (min-width: 640px) {
+
+	.col-m-1 {width: 100%;}
+    .col-m-2 {width: 100%;}
+    .col-m-3 {width: 100%;}
+    .col-m-4 {width: 100%;}
+    .col-m-5 {width: 100%;}
+    .col-m-6 {width: 100%;}
+    .col-m-7 {width: 100%;}
+    .col-m-8 {width: 100%;}
+    .col-m-9 {width: 100%;}
+    .col-m-10 {width: 100%;}
+    .col-m-11 {width: 100%;}
+    .col-m-12 {width: 100%;}
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+
+}
+
+@media only screen and (min-width: 980px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+}

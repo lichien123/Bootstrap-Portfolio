@@ -12,6 +12,10 @@ p {
     
 }
 
+body {
+background: url("https://cdn.dribbble.com/users/303740/screenshots/1523292/rmq_back.jpg");
+}
+
 .navbar-brand {
 	padding-left: 5px;
 	padding-right: 5px;
@@ -27,19 +31,25 @@ p {
 */
 
 
+
 .container-about-me {
 	padding-top: 15px;
 	border: solid 5px;
 	height: 500px;
 	text-align: left;
+    background-color: white;
 }
 
 .about-me-body {
-    float: left;
+    display: flex;
 }
 
 .about-me-text {
-
+    margin-left: 1rem;
+    line-height: 2rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .connect-icon {
@@ -52,6 +62,7 @@ p {
 	border: solid 5px;
 	width: 600px;
 	height: 670px;
+    background-color: white;
 
 }
 
@@ -81,8 +92,13 @@ p {
 	width: 250px;
 }
 
-.card-foot {
-    height: 10rem;
+.card-connect {
+
+}
+
+.card-footer {
+    background-color: #FDCA40;
+    height: 3.7rem;
 }
 
 .p-footer {
@@ -92,7 +108,7 @@ p {
 
 .card {
     margin-top: 3rem;
-    background-image: https://newevolutiondesigns.com/images/freebies/colorful-background-11.jpg;
+    
 }
 
 .card-body {
@@ -102,11 +118,33 @@ p {
 
 .btn {
     border: none;
+    margin: .35rem
 }
 
 .btn-music-link {
-    background-color: #EAB126;
+    background-color: #FFD5C2;
 }
+
+.btn-music-link-solace {
+    background-color: #E3D8C7;
+}
+
+.dropdown-toggle {
+
+}
+
+ul li div {
+    position: absolute;
+    width: 200px;
+    display: none;
+}
+
+ul li div a { 
+  background: #555; 
+  display: block; 
+}
+ul li ul a {display:block !important;} 
+ul li ul a:hover {background: #666;}
 
 
 @media only screen and (min-width: 640px) {

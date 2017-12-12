@@ -35,7 +35,7 @@ background: url("https://cdn.dribbble.com/users/303740/screenshots/1523292/rmq_b
 .container-about-me {
 	padding-top: 15px;
 	border: solid 5px;
-	height: 500px;
+	height: 515px;
 	text-align: left;
     background-color: white;
 }
@@ -46,7 +46,7 @@ background: url("https://cdn.dribbble.com/users/303740/screenshots/1523292/rmq_b
 
 .about-me-text {
     margin-left: 1rem;
-    line-height: 2rem;
+    line-height: 1.85rem;
     font-size: 1rem;
     display: flex;
     flex-direction: column;
